@@ -1,4 +1,4 @@
-.PHONY: install format lint test train evaluate
+.PHONY: install format lint test train evaluate predict
 
 
 install:

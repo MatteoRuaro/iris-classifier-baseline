@@ -6,7 +6,9 @@ from sklearn.datasets import load_iris
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fai una previsione con il modello Iris addestrato.")
+    parser = argparse.ArgumentParser(
+        description="Fai una previsione con il modello Iris addestrato."
+    )
     parser.add_argument(
         "--inputs",
         nargs=4,
